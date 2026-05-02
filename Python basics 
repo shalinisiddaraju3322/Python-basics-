@@ -1,0 +1,263 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNgLlhmjBX+YgYs8xkOrmZ+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/shalinisiddaraju3322/Python-basics-/blob/main/Python%20basics%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "d0Jbd8UN-ZLM",
+        "outputId": "bf890f0f-9a25-42ba-a1c0-9f04b757f2e0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello world\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello world\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"shalini\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0T7Z2zDeAVqc",
+        "outputId": "1ef943a0-ee35-443c-acda-1f32878888fd"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "shalini\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"shalini\"\n",
+        "year=\"2008\"\n",
+        "\n",
+        "print(\"Hello\",name)\n",
+        "print(year)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uN37CMcRA1k5",
+        "outputId": "713ebdee-5944-4e2e-98f0-2f82263dfee8"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello shalini\n",
+            "2008\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"shalini\"\n",
+        "year=\"2008\"\n",
+        "\n",
+        "print(name+year)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "O97MTuoDBpwC",
+        "outputId": "194b8a61-1db4-489b-f870-e7b239a3c37a"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "shalini2008\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=10\n",
+        "b=5\n",
+        "sum=a+b\n",
+        "sub=a-b\n",
+        "mul=a*b\n",
+        "div=a/b\n",
+        "print(\"sum\",sum)\n",
+        "print(\"sub\",sub)\n",
+        "print(\"mul\",mul)\n",
+        "print(\"div\",div)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "s5jhRZTvCVnM",
+        "outputId": "969a6aeb-c62d-4ba5-dea0-87d71dc65905"
+      },
+      "execution_count": 17,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sum 15\n",
+            "sub 5\n",
+            "mul 50\n",
+            "div 2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"Enter your name:\")\n",
+        "b=input(\"Enter your branch:\")\n",
+        "\n",
+        "print(\"hello\",a)\n",
+        "print(b)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "KYwEwz-CEjLT",
+        "outputId": "9e9cd296-db96-40f5-8576-88ec1c594334"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name:Shalini\n",
+            "Enter your branch:CSE\n",
+            "hello Shalini\n",
+            "CSE\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "A=int(input(\"Enter the value of a:\"))\n",
+        "B=int(input(\"Enter the value of b:\"))\n",
+        "sum=A+B\n",
+        "sub=A-B\n",
+        "mul=A*B\n",
+        "div=A/B\n",
+        "\n",
+        "print(\"sum\",sum)\n",
+        "print(\"sub\",sub)\n",
+        "print(\"mul\",mul)\n",
+        "print(\"div\",div)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LE-dvHA3GREC",
+        "outputId": "07f21a15-eab0-40a2-bf38-2b072e1c81cd"
+      },
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the value of a:10\n",
+            "Enter the value of b:2\n",
+            "sum 12\n",
+            "sub 8\n",
+            "mul 20\n",
+            "div 5.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=int(input(\"Enter your age:\"))\n",
+        "\n",
+        "if age>=18:\n",
+        "   print(\"you can vote\")\n",
+        "\n",
+        "else:\n",
+        "     print(\"come again next year\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AU_gfXSfI1Oq",
+        "outputId": "efefc376-93b5-4d9a-ab78-cb71afef8e7e"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your age:3\n",
+            "come again next year\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
