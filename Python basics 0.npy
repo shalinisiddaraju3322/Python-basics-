@@ -267,11 +267,11 @@
         "print()"
       ],
       "metadata": {
-        "id": "WyHMHohcJTtX",
-        "outputId": "c1d7ce36-bbdb-49bc-bba9-dcedea4982e0",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "WyHMHohcJTtX",
+        "outputId": "c1d7ce36-bbdb-49bc-bba9-dcedea4982e0"
       },
       "execution_count": 4,
       "outputs": [
@@ -295,11 +295,11 @@
         "   print(\"come again next year\")"
       ],
       "metadata": {
-        "id": "ByX7YTbaKVl6",
-        "outputId": "9433eef0-10a5-4d6f-afd2-286a8719d48d",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "ByX7YTbaKVl6",
+        "outputId": "9433eef0-10a5-4d6f-afd2-286a8719d48d"
       },
       "execution_count": 7,
       "outputs": [
@@ -322,11 +322,11 @@
         "greet()"
       ],
       "metadata": {
-        "id": "7Ggur_MKM-Et",
-        "outputId": "fa932ea0-5bca-40da-e513-020693aaee91",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "7Ggur_MKM-Et",
+        "outputId": "fa932ea0-5bca-40da-e513-020693aaee91"
       },
       "execution_count": 8,
       "outputs": [
@@ -349,11 +349,11 @@
         "greet(\"siddraju\")"
       ],
       "metadata": {
-        "id": "QBrppScnOdaE",
-        "outputId": "4786b336-25a7-46e6-dc5c-aa8b27b60a9f",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "QBrppScnOdaE",
+        "outputId": "4786b336-25a7-46e6-dc5c-aa8b27b60a9f"
       },
       "execution_count": 12,
       "outputs": [
@@ -377,11 +377,11 @@
         "print(result)"
       ],
       "metadata": {
-        "id": "S-11Bi66RlIm",
-        "outputId": "09829316-9c56-4dba-ad06-51d164a59fa7",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "S-11Bi66RlIm",
+        "outputId": "09829316-9c56-4dba-ad06-51d164a59fa7"
       },
       "execution_count": 13,
       "outputs": [
